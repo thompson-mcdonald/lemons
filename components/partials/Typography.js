@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { typography, margin } from 'styled-system';
+import { typography, margin, color } from 'styled-system';
 
 export const Title = styled.h1`
   font-size: 4rem;
@@ -14,4 +14,9 @@ export const TitleH2 = styled.h2`
   font-weight: normal;
   ${typography}
   ${margin}
+`;
+
+export const Small = styled.span`
+  font-size: calc(0.8vw + 1rem);
+  ${color}
 `;

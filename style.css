@@ -1,4 +1,4 @@
 html, body {
   margin: 0;
-  font-family: "Lateef";
+  -webkit-font-smoothing: antialiased;
 }
